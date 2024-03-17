@@ -25,7 +25,7 @@ const TabRoutes = () => {
           tabBarInactiveTintColor: "#777",
         }}  />
 
-      <Tab.Screen name="Profile" component={Profile} initialParams={{ user }}
+       <Tab.Screen name="Profile" component={Profile} initialParams={{ user }}
         options={{
           tabBarIcon: ({ focused }) => (
             <Feather
@@ -37,7 +37,7 @@ const TabRoutes = () => {
           tabBarLabel: "Perfil",
           tabBarActiveTintColor: "#131313",
           tabBarInactiveTintColor: "#777",
-        }} />
+        }} /> 
         
       <Tab.Screen name="Category" component={Category} 
        options={{
