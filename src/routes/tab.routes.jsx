@@ -5,6 +5,7 @@ import Home from "../screens/Home";
 import Profile from "../screens/Profile";
 import Category from "../screens/Category";
 import { user } from "../data/Profile";
+import Details from "../screens/Details";
 
 const Tab = createBottomTabNavigator();
 
