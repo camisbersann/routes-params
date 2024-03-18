@@ -10,13 +10,13 @@ export default function Home() {
     <View style={styles.container}>
       <Title title={"Home"}/>
 
-      {/* <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("Profile", { user })}>
+       <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("Profile", { user })}>
         <Text style={styles.text}>Go to profile</Text>
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("Category")}>
         <Text style={styles.text}>Go to category</Text>
-      </TouchableOpacity> */}
+      </TouchableOpacity>
      
     </View>
   )
